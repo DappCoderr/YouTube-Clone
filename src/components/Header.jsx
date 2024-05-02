@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <div className="grid w-full grid-flow-col p-2 shadow-lg">
+    <div className="grid w-full place-items-center h-16 grid-flow-col p-2 shadow-lg">
       <div className="flex col-span-1">
         <img
           className="h-8"
@@ -13,14 +13,14 @@ const Header = () => {
           alt="youtube-logo"
         />
       </div>
-      <div className="flex col-span-10">
+      <div className="col-span-10 text-center">
         <input
-          className="w-1/2 border-solid border-2 border-black rounded"
+          className="order-solid border-2 border-black rounded w-96"
           type="text"
         />
         <button>Search</button>
       </div>
-      <div>
+      <div className="col-span-1">
         <img
           className="h-8"
           src="https://e7.pngegg.com/pngimages/178/595/png-clipart-user-profile-computer-icons-login-user-avatars-monochrome-black-thumbnail.png"
