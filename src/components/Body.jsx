@@ -1,6 +1,5 @@
-import React from "react";
-import SideBar from "./Sidebar";
 import MainContainer from "./MainContainer";
+import SideBar from "./SideBar";
 
 const Body = () => {
   return (
