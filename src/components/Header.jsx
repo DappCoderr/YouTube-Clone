@@ -15,10 +15,13 @@ const Header = () => {
       </div>
       <div className="col-span-10 text-center">
         <input
-          className="order-solid border-2 border-black rounded w-96"
+          className="order-solid border border-black w-96 border-gray-400 rounded-l-full rounded py-1 pl-4"
           type="text"
+          placeholder="Search"
         />
-        <button>Search</button>
+        <button className="border border-gray-400 px-4 cursor-pointer rounded-r-full py-1 bg-gray-100">
+          🔍
+        </button>
       </div>
       <div className="col-span-1">
         <img
