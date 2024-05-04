@@ -14,7 +14,7 @@ const ButtonList = () => {
     "Blockchain",
   ];
   return (
-    <div className="flex justify-start my-4 ml-6">
+    <div className="flex justify-start my-4">
       {List.map((e, index) => {
         return <Button name={e} key={index} />;
       })}
